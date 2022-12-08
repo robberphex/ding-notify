@@ -13,7 +13,7 @@ $ cargo build --release
 
 ## Usage
 
-```js
+```
 ding-notify 0.1.0
 
 USAGE:
@@ -31,7 +31,17 @@ OPTIONS:
 ## Example
 
 ```sh
-ding-notify README.md --markdonw-title markdown_title
+./target/debug/ding-notify ./NOTIFY.md --markdonw-title markdown_title
+```
+
+## Example of .dingtalk-token.json
+
+```bash
+$ cat ~/.dingtalk-token.json
+{
+	"access_token": "54b2dc82dd9b7bea1xxxxx",
+	"sec_token": "SEC450fca6691854677bxxxxx"
+}
 ```
 
 ## Contribute

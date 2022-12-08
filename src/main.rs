@@ -1,4 +1,4 @@
-use clap::{Parser};
+use clap::Parser;
 use dingtalk::DingTalk;
 use std::path::PathBuf;
 use tokio::fs;
